@@ -18,4 +18,16 @@ public class StudentRepository:IStudentRepository
          _dbContext.Students.Add(student);
          return Task.FromResult(student);
     }
+
+    public Task<List<Student>> GetAll()
+    {
+      var students =   _dbContext.Students.ToList();
+      return Task.FromResult(students);
+    }
+
+    public Task GetById(int id)
+    {
+        var student = _dbContext.Students.FirstOrDefault(s => s.Id == id);
+        return Task.FromResult(student);
+    }
 }

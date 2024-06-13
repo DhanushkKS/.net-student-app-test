@@ -12,6 +12,21 @@ public class StudentController:ApiBaseController
     {
         _studentRepository = studentRepository;
     }
+    //GetAll
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        await _studentRepository.GetAll();
+        return Ok(200);
+    }
+    //GetBiYd
+    [HttpGet("{id:int}")]
+    public async Task<IActionResult> GetById([FromRoute] int id)
+    {
+        await _studentRepository.GetById(id);
+        return Ok(200);
+    }
+    
     
     //Create Student
     [HttpPost]
