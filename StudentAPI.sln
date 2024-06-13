@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI", "StudentAPI\StudentAPI.csproj", "{B81B7719-69DE-494A-AC5F-D10F7F1A3336}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI.API", "StudentAPI.API\StudentAPI.API.csproj", "{B81B7719-69DE-494A-AC5F-D10F7F1A3336}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI.Domain", "StudentAPI.Domain\StudentAPI.Domain.csproj", "{295A0DD8-1681-4170-84A7-2342515DB515}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI.Application", "StudentAPI.Application\StudentAPI.Application.csproj", "{88FB4427-EA6B-4B5C-B016-0ECF96F983B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI.Infrastructure", "StudentAPI.Infrastructure\StudentAPI.Infrastructure.csproj", "{14DC71AA-6724-4AA8-A7DB-E711ACCE8ADE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI.Infrascture", "StudentAPI.Infrascture\StudentAPI.Infrascture.csproj", "{3784125C-0576-4A96-BB01-E762243EA41A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +26,9 @@ Global
 		{88FB4427-EA6B-4B5C-B016-0ECF96F983B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88FB4427-EA6B-4B5C-B016-0ECF96F983B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88FB4427-EA6B-4B5C-B016-0ECF96F983B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14DC71AA-6724-4AA8-A7DB-E711ACCE8ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14DC71AA-6724-4AA8-A7DB-E711ACCE8ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14DC71AA-6724-4AA8-A7DB-E711ACCE8ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14DC71AA-6724-4AA8-A7DB-E711ACCE8ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3784125C-0576-4A96-BB01-E762243EA41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3784125C-0576-4A96-BB01-E762243EA41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3784125C-0576-4A96-BB01-E762243EA41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3784125C-0576-4A96-BB01-E762243EA41A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
