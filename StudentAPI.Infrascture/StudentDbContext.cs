@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using StudentAPI.Domain;
 
-namespace StudentAPI.Infrascture;
+namespace StudentAPI.Infrascture
+{   
+    
 
-public class StudentDbContext :DbContext
+public class StudentDbContext(DbContextOptions<StudentDbContext> options) : DbContext(options)
 {
-    public StudentDbContext(DbContextOptions<StudentDbContext> options): base(options){}
     public DbSet<Student> Students { get; set; }
+}
 }

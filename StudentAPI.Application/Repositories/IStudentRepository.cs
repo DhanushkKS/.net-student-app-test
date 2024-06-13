@@ -1,6 +1,8 @@
+using StudentAPI.Domain;
+
 namespace StudentAPI.Application.Repositories;
 
-public class IStudentRepository
+public interface IStudentRepository
 {
-    
+    Task Create(Student student);
 }

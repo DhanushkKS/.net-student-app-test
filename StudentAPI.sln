@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI", "StudentAPI\StudentAPI.csproj", "{B81B7719-69DE-494A-AC5F-D10F7F1A3336}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI.API", "StudentAPI.API\StudentAPI.API.csproj", "{B81B7719-69DE-494A-AC5F-D10F7F1A3336}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI.Domain", "StudentAPI.Domain\StudentAPI.Domain.csproj", "{295A0DD8-1681-4170-84A7-2342515DB515}"
 EndProject
